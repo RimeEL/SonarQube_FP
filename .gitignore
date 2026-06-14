@@ -1,0 +1,41 @@
+# Environnement virtuel
+venv_sca/
+venv/
+.venv/
+
+# Gros fichiers de données — à télécharger depuis Zenodo (voir README)
+data/raw/main_dataset.csv
+data/raw/raw_data/
+data/input/x_train.csv
+data/input/x_test.csv
+
+# Données générées (reproductibles en exécutant les notebooks)
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Modèles entraînés (générés par les notebooks)
+models/rf_model.pkl
+models/lgbm_model.pkl
+
+# Résultats générés (générés par les notebooks)
+results/results_rf.json
+results/results_lgbm.json
+results/comparison_table.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
